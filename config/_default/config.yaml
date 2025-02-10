@@ -6,7 +6,6 @@ enableEmoji: true
 enableGitInfo: true
 enableRobotsTXT: true
 languageCode: en-us
-relativeURLs: true
 
 security:
   enableInlineShortcodes: true
