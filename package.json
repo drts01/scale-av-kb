@@ -1,0 +1,23 @@
+{
+  "name": "scale-av-kb",
+  "version": "0.0.0",
+  "description": "SCALE A/V Notes",
+  "repository": "github:drts01/scale-av-kb",
+  "homepage": "https://",
+  "author": "Carlos Meza",
+  "license": "Apache-2.0",
+  "bugs": "https://github.com/drts01/scale-av-kb/issues",
+  "spelling": "cSpell:ignore HTMLTEST precheck postbuild -",
+  "scripts": {
+    "_hugo": "hugo --cleanDestinationDir",
+    "build": "npm run _hugo -- --environment development",
+    "clean": "rm -Rf public/* resources",
+    "serve": "npm run _hugo -- server --disableFastRender --renderToMemory",
+    "update": "npm run update:go && npm outdated || npm update",
+    "update:go": "hugo mod get -u && hugo mod tidy"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.x",
+    "postcss-cli": "^11.x",
+  }
+}
