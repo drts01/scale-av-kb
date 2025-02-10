@@ -67,7 +67,7 @@ jobs:
         run: npm ci --install-strategy=nested
       - name: Build
         run: npm run build --
-          --environment production
+          --environment prod
           --baseURL "${{ steps.pages.outputs.base_url }}/"
           --logLevel info
       - name: Upload artifact
