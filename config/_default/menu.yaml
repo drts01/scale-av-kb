@@ -1,0 +1,6 @@
+shortcuts:
+  - name: <i class='fas fa-link'></i> Links
+    url: links/
+  - name: <i class='fas fa-fw fa-tags'></i> Tags
+    url: tags/
+    weight: 40

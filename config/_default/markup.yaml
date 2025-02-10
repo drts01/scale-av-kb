@@ -1,0 +1,23 @@
+goldmark:
+  extensions:
+    extras:
+      delete:
+        enable: true
+      insert:
+        enable: true
+      mark:
+        enable: true
+      subscript:
+        enable: true
+      superscript:
+        enable: true
+    gfm: true
+  parser:
+    attribute:
+      block: true
+    wrapStandAloneImageWithinParagraph: false
+  renderer:
+    unsafe: true
+highlight:
+  noClasses: false  # https://www.docsy.dev/docs/adding-content/lookandfeel/#lightdark-color-themes
+  style: tango

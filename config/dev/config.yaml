@@ -1,0 +1,7 @@
+buildDrafts: true
+buildFuture: true
+cleanDestinationDir: true
+
+build:
+  buildStats:
+    enable: true

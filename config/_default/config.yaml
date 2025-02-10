@@ -1,0 +1,17 @@
+title: SCALE A/V KB
+copyright: digitalroots ©2025
+
+disableHugoGeneratorInject: true
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+languageCode: en-us
+relativeURLs: true
+
+security:
+  enableInlineShortcodes: true
+
+outputs:
+  home: [HTML, RSS, print]
+  section: [HTML, RSS, print]
+  page: [HTML, RSS, print]

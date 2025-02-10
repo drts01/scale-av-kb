@@ -1,0 +1,7 @@
+proxy: direct
+hugoVersion:
+  extended: true
+  min: 0.125.4
+imports:
+  path: github.com/google/docsy
+  disable: false

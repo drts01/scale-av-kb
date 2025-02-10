@@ -1,0 +1,21 @@
+copyright:
+  authors: Carlos Meza
+  from_year: 2024
+github_repo: https://github.com/drts01/scale-av-notes
+github_project_repo: https://github.com/drts01/scale-av-notes
+links:
+  developer:
+    - name: GitHub
+      url: https://github.com/drts01/scale-av-notes
+      icon: fab fa-github
+      desc: Source code for this site
+offlineSearch: true
+mermaid:
+  version: 10.9.1
+navbar_logo: true
+ui:
+  showLightDarkModeMenu: true
+  sidebar_cache_limit: 100
+  sidebar_menu_compact: true
+  sidebar_menu_foldable: true
+  ul_show: 1
