@@ -1,0 +1,22 @@
+{{- $page := .Page }}
+{{- $sort := .Get "sort" | default "asc" }}
+{{- $pattern := .Get "pattern" | default "" }}
+{{- if eq $page.BundleType "" }}
+  {{- warnf "%q: UNSUPPORTED usage of 'resources' shortcode found." $page.File.Filename }}
+{{- end }}
+
+{{- range sort .Page.Resources "Name" $sort }}
+  {{- if findRE $pattern .Name }}
+    {{- $size := len .Content }}
+    {{- $unit := "B" }}
+    {{- if ge $size 1024 }}
+      {{- $size = div $size 1024 }}
+      {{- $unit = "KB" }}
+    {{- end }}
+    {{- if ge $size 1024 }}
+      {{- $size = div $size 1024 }}
+      {{- $unit = "MB" }}
+    {{- end }}
+- [{{.Name}}]({{ .RelPermalink }}) ({{$size}} {{$unit}})
+  {{- end }}
+{{- end }}
