@@ -18,6 +18,7 @@ goldmark:
     wrapStandAloneImageWithinParagraph: false
   renderer:
     unsafe: true
+  strikethrough: false
 highlight:
   noClasses: false  # https://www.docsy.dev/docs/adding-content/lookandfeel/#lightdark-color-themes
   style: tango
