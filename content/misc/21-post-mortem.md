@@ -1,6 +1,6 @@
 ---
 title: SCALE 21x Post-Mortem
-description: Post-Mortem for SCALE 21x
+description: A/V team Post-Mortem for SCALE 21x
 linkTitle: 21x Post-Mortem
 date: 2024-03-14
 tags: [post-mortem]
