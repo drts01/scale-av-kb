@@ -3,7 +3,7 @@ title: SCALE 21x Post-Mortem
 description: A/V team Post-Mortem for SCALE 21x
 linkTitle: 21x Post-Mortem
 date: 2024-03-14
-tags: [post-mortem]
+tags: [post-mortem, 2024, 21x]
 ---
 
 - Starch is the only one that knows how to test the rooms. -- Starch
