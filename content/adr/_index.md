@@ -27,3 +27,7 @@ Minimum Components of an ADR:
 | ----------- | ------------------------ |
 | 1000 - 1999 | Governence Documentation |
 | 8000 - 9999 | Miscellaneous            |
+
+## Descision Guidelines
+
+Descision are a balance of maintainablity, opensource, approachablity for new contributers.
