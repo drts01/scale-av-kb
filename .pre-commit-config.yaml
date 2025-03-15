@@ -26,7 +26,7 @@ repos:
           - pyflakes
           - shellcheck-py
   - repo: https://github.com/adrienverge/yamllint.git
-    rev: v1.35.1
+    rev: v1.36.0
     hooks:
       - id: yamllint
   # Breaks Hugo shortcut codes by escaping the less than sign
@@ -39,7 +39,7 @@ repos:
   #         - mdformat-gfm
   #         - mdformat-tables
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
-    rev: v9.20.0
+    rev: v9.22.0
     hooks:
       - id: commitlint
         additional_dependencies: ["@commitlint/config-conventional"]
