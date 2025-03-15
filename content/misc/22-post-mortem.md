@@ -105,6 +105,8 @@ tags: [post-mortem, 2025, 22x]
   - Enable focus following mouse to select active window to make easy to switch active room
   - Larger mouse icon to make it easier find
   - Enable Ctrl mouse find
+- Document the difference between gains and levels
+- Diagram the room audio / video data flow
 
 ### Room
 
