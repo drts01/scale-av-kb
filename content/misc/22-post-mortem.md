@@ -84,6 +84,9 @@ tags: [post-mortem, 2025, 22x]
   - Donate
   - They are not apprciating in value and taking up space in storage
 - Gather anonymous feedback from all volunteers
+- Share equipment inventory prior to setup
+- Create step by step setup guide prior to setup
+  - Use three sections: Computer, Mixer, Camera
 - Track setup, testing, and issues digitally instead of whiteboard
   - whiteboards are not always updated
   - inconsistent in how the information is presented
